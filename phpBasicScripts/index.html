@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Formulario Base</title>
+</head>
+
+<body>
+<form method="post" action="formulario.php">
+<table width="500" border="1" align="center">
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="hidden" name="id" />
+	</td>
+  </tr>
+  <tr>
+    <td>Nombre</td>
+    <td>
+      <input type="text" name="nombre"  />
+   </td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>
+      <input type="text" name="edad" />
+    </td>
+  </tr>
+  <tr>
+    <td>Sexo;</td>
+    <td>
+      <select name="sexo" >
+    <option value="Elegir">Elegir
+    <option value="masculino">Masculino
+    <option value="femenino">Femenino
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td>Telefono;</td>
+    <td>
+      <input type="text" name="telefono" />
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>
+      <input type="submit" name="submit"  value="Enviar" />
+    </td>
+  </tr>
+</table>
+</form>
+</body>
+</html>

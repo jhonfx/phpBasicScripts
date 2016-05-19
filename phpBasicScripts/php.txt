@@ -1,0 +1,38 @@
+1. Hacer un script que lea cualquier archivo de texto, a continuacion determinar el numero de palabras por renglon.
+
+2. Hacer un script que lea cualquier archivo de texto y a continuacion determinar cual palabra se repite mas veces(moda).
+
+3. Hacer un script que lea cualquier archivo de texto a continuacion determinar la cantidad de vocales(a, e, i, o, u).
+
+4. Hacer un script que lea el siguiente archivo de texto:
+
+numeros.txt
+-------------------------|
+ 1    4    6    23   65  |
+54    3    87   34   2   |
+6    56    32   54   12  |
+6    45    0    23   12  |
+-------------------------|
+a continuacion ordenar los numeros (ascedentes o desendentes) y guardarlos en un archivo llamado ordenados.txt
+
+5. Hacer un script en php que permita buscar una cadena en un archivo de texto.
+
+6. Hacer un script en php que detecte que usuario entro al sitio, obtener la siguiente informacion de dicha maquina, probarlo en la intranet.
+
+ -------------------------------------------------------------
+ | Dia      | Direccion IP  | Hora  | Fecha     | Nombre      |
+ |          |               |       |           | Maquina     |      
+ |----------|---------------|-------|-----------|-------------|
+ | Lunes    |198.162.7.63   | 12:45 |03-03-2005 | rcja        |
+ |----------|---------------|-------|-----------|-------------|
+
+7. Crear un archivo de texto(Bloc de notas) con el sig. Formato.
+
+----------------------------------------------------------
+8019714 Alfredo Rivera Perez 8.7  8.6  9.6  8.7  8.7      |
+8019754 Pamela Cueto Martinez  7.8  8.7  9.8  6.5  7.8    |
+----------------------------------------------------------
+
+Hacer un script en php que lea el archivo anterior, calcular el promedio por alumno, materia y graficar ambos promedios por separado.
+
+8. Se decea hacer un script en php que genere una contraseña con la siguiente secuencia: un caracter, un numero hasta formar una palabra de 8 caracteres(3A4D3D5G), las contrseñas no deberan repetirse y se guardaran en un archivo de texto. 

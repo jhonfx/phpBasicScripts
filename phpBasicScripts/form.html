@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Formulario Base</title>
+	<script type="text/javascript">
+		function lettersOnly(e) {
+			tecla = (document.all) ? e.keyCode : e.which;
+			if (tecla==8) return true;
+			patron =/[A-Za-z]/;
+			te = String.fromCharCode(tecla);
+			return patron.test(te);
+		}
+	</script>
+</head>
+
+<body>
+	<input type="text" onkeypress="return lettersOnly(event)" />
+</body>
+</html>
